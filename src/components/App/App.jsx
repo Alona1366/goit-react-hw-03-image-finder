@@ -1,11 +1,11 @@
 import { Component } from 'react';
 import { AppContainer } from './App.styled';
-// import Searchbar from '../Searchbar/Searchbar';
+import Searchbar from '../Searchbar/Searchbar';
 import fetchImage from '../API';
-// import ImageGallery from '../ImageGallery/ImageGallery';
+import ImageGallery from '../ImageGallery/ImageGallery';
 import ButtonClick from '../Button/Button';
-// import Modal from '../Modal/Modal';
-// import Loader from '../Loader/Loader';
+import Modal from '../Modal/Modal';
+import Loader from '../Loader/Loader';
 
 export default class App extends Component {
   state = {
